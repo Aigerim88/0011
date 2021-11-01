@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 500px;
+    height: 30px;
+    border: 1px solid grey;
+}
+
+.nav {
+    width: 500px;
+    height: 15px;
+    border: 1px solid grey;
+}
+
+.section1, .section2, .section3, .section4 {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section1 > .left-panel {
+    width: 20%;
+    height: 120px;
+    border: 1px solid grey;
+}
+.section1 > .content {
+    width: 60%;
+    height: 120px;
+    border: 1px solid grey;
+}
+.section1 > .right-panel {
+    width: 20%;
+    height: 120px;
+    border: 1px solid grey;
+}
+.section2 > .left-panel {
+    width: 50%;
+    height: 160px;
+    border: 1px solid grey;
+}
+.section2 > .right-panel {
+    width: 50%;
+    height: 160px;
+    border: 1px solid grey;
+}
+.section3 > .left-panel {
+    width: 30%;
+    height: 140px;
+    border: 1px solid grey;
+}
+.section3 > .right-panel {
+    width: 70%;
+    height: 140px;
+    border: 1px solid grey;
+}
+.section4 > .panel1 {
+    width: 25%;
+    height: 160px;
+    border: 1px solid grey;
+}
+.section4 > .panel2 {
+    width: 25%;
+    height: 160px;
+    border: 1px solid grey;
+}
+.section4 > .panel3 {
+    width: 25%;
+    height: 160px;
+    border: 1px solid grey;
+}
+.section4 > .panel4 {
+    width: 25%;
+    height: 160px;
+    border: 1px solid grey;
+}
